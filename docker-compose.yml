@@ -8,8 +8,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: supersecret
       MYSQL_DATABASE: pms
-      MYSQL_USER: student
-      MYSQL_PASSWORD: secret
+      #      MYSQL_USER: student
+      #      MYSQL_PASSWORD: secret
     volumes:
       - ./sql:/docker-entrypoint-initdb.d/:z
   phpmyadmin:
