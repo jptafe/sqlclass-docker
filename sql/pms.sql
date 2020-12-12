@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 CREATE DATABASE IF NOT EXISTS `pms` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `pms`;
 
-GRANT SELECT, EXECUTE, SHOW VIEW ON pms.* TO student@'%' IDENTIFIED BY 'secret';
+GRANT SELECT, EXECUTE, SHOW VIEW ON pms.* TO student@'%';
 
 -- --------------------------------------------------------
 

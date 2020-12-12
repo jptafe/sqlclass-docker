@@ -9,7 +9,7 @@ Install a Docker orchestration program like Docker Desktop (Windows & Mac)
 ```
 git clone https://github.com/jptafe/sqlclass-docker
 cd sqlclass-docker
-docker-compse up
+docker-compose up
 ```
 Then open your browser and open http://localhost:8080
 
