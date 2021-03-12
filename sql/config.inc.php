@@ -25,12 +25,14 @@ $i = 0;
  */
 $i++;
 /* Authentication type */
-$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['user'] = 'student';
+$cfg['Servers'][$i]['password'] = 'foobar';
 /* Server parameters */
 $cfg['Servers'][$i]['host'] = '127.0.0.1';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
-$cfg['PmaAbsoluteUri_DisableWarning'] = true;
+$cfg['PmaAbsoluteUri_DisableWarning'] = TRUE; 
 
 
 /**
